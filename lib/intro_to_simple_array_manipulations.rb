@@ -30,7 +30,16 @@ def using_insert(arr,element)
   arr.insert(3, element)
 end
 
+def using_uniq(arr)
+  arr.using_uniq
+end
 
+def using_flatten(arr)
+  arr.flatten 
+end
+
+def using_delete(arr,string)
+  arr.delete(string)
 
   
   
