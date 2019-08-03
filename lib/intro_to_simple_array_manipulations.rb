@@ -43,7 +43,10 @@ def using_delete(arr,string)
 end
 
 def using_delete_at(arr,num)
-  arr.delete(num)
+  to_delete=arr.indexOf(num)
+  arr.delete(to_delete)
+end
+
 
   
   
